@@ -12,4 +12,6 @@
 
 Чому F#? Так сталося, і було легше усього зробити персонально мені.
 
+Ісходний код для ядра Polyglot Notebooks [тут](https://github.com/kant2002/fsharp-kernel-ua)
+
 [1]: https://dl.acm.org/doi/pdf/10.1145/3051457.3051464
