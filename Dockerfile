@@ -48,7 +48,7 @@ RUN curl -L https://dot.net/v1/dotnet-install.sh | bash -e -s -- --install-dir /
 RUN dotnet help
 
 # Copy package sources
-COPY ./NuGet.config ${HOME}/nuget.config
+#COPY ./NuGet.config ${HOME}/nuget.config
 
 RUN chown -R ${NB_UID} ${HOME}
 USER ${USER}
